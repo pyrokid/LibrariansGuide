@@ -16,7 +16,7 @@ class BooksViewHolder(private val books: List<Book>) :
 
         fun bind(book: Book) {
             itemView.book_title.text = book.name
-            itemView.book_author_and_year.text = """${book.author} ${book.year}"""
+            itemView.book_author_and_year.text = "${book.author} ${book.year}"
             book.imageUrl?.let {
                 Picasso.get().load(book.imageUrl).centerCrop().resize(100, 100)
                     .error(R.drawable.ic_error_noimage).into(itemView.book_image)
