@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Librarian\'s Guide</string>
+    <string name="books_tab_title">Книги</string>
+    <string name="readers_tab_title">Читатели</string>
+    <string name="string_retry">Обновить</string>
+    <string name="string_retry_alert">Что-то пошло не так,\nнажмите \"повторить\"</string>
+</resources>
